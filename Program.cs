@@ -1,15 +1,41 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace test_run
+public class Run
 {
-    class Program
+    public static int IndexOfLongestRun(string str)
     {
-        static void Main(string[] args)
+        var start = 0;
+        var end = 0;
+        var lenght = 0;
+        var maxLenght = 0;
+        var character = str[0];
+        var count = 0;
+
+        while (count < str.Length)
         {
+            if (character == str[count])
+            {
+                lenght++;
+            }
+            else
+            {
+                if (lenght > maxLenght)
+                {
+                    start = count - lenght;
+                    maxLenght = lenght;
+                    end = count - 1;
+                }
+                character = str[count];
+                lenght = 1;
+            }
+            count++;
         }
+
+        return start;
+    }
+
+    public static void Main(string[] args)
+    {
+        Console.WriteLine(IndexOfLongestRun("abbcccddddcccbba"));
     }
 }

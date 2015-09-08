@@ -1,1 +1,6 @@
 C:\Dados\RMMSoftware\Projetos\Exemplos\Tests Interview\test-run\bin\Debug\test-run.exe.config
+C:\Dados\RMMSoftware\Projetos\Exemplos\Tests Interview\test-run\obj\Debug\test-run.csprojResolveAssemblyReference.cache
+C:\Dados\RMMSoftware\Projetos\Exemplos\Tests Interview\test-run\bin\Debug\test-run.exe
+C:\Dados\RMMSoftware\Projetos\Exemplos\Tests Interview\test-run\bin\Debug\test-run.pdb
+C:\Dados\RMMSoftware\Projetos\Exemplos\Tests Interview\test-run\obj\Debug\test-run.exe
+C:\Dados\RMMSoftware\Projetos\Exemplos\Tests Interview\test-run\obj\Debug\test-run.pdb
